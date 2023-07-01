@@ -1,19 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 .container{
-    padding-top: 3rem;
+    padding-top: 2rem;
     background-image: url('http://eugenioaragon.com.ar/emilia/bg5.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-   width: 80vw;
+
 }
 
 .faqTitle{
     font-family: 'Libre Baskerville', serif;
     font-size: 2rem;
     font-weight: 400;
+}
+
+.faqTitle, .title, .content{
+    margin-left: 24.375rem; 
+    margin-right: 24.375rem; 
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 4rem;
+    background-color:  #F9F9F9;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.arrowUp, .arrowDown{
+    font-size: 2rem;
+    color: #DD71C6
+}
+
+.BookButton {
+    background-color: #DD71C6;
+    color: white;
+    border: none;
+    border-radius: 0;
+    width: 12.58rem;
+  }
+
+.BookBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

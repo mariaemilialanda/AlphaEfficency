@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.container{
+        padding-top: 10rem;
+        background-image: url('http://eugenioaragon.com.ar/emilia/bg4.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        padding-bottom: 0.2rem;
+}
+
+.logo {
+    width: 8.625rem; 
+    height: 3.8803679930664063rem; 
+    margin-top: 1.45rem;
+    margin-left: 24.375rem; 
+    margin-right: 3rem;
+  }
+
+  .text{
+    font-size: 1rem;
+    width: 28rem;
+    margin-left: 24.375rem; 
+  }
+
+  .info{
+    margin-left: 24.375rem; 
+  }
+
+  .phone, .pinpoint{
+    margin-right: 0.5rem;
+  }
+
+  .phone, .pinpoint, .socialMedia{
+    color: #DD71C6;
+  }
+
+  .socialMedia{
+    margin-top: 5rem;
+    margin-left: 24.375rem; 
+    display: flex;
+    gap: 3rem
+  }
+
+  .listTitles{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5 rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .block4{
+    margin-left: 15rem;
+  }
+
+  .list{
+    list-style: none;
+    font-size: 1rem;
+    margin-right: 2rem;
+    margin-left: -3rem;
+  }
+
+  .listBlocks{
+    margin-top: 1.45rem;
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+  }
+
+  .item{
+    padding: 0.7rem;
+  }
+
+  .item a {
+    color: black;
+  }
+
+  .footer{
+    margin-top: 5rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
