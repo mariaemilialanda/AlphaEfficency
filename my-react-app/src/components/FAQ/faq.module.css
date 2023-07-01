@@ -2,8 +2,8 @@
 
 .container{
     padding-top: 2rem;
-    /* background-image: url(http://eugenioaragon.com.ar/emilia/bg5.jpg); */
-    background-image: url("../../assets/bg5.jpg");
+    background-image: url(http://eugenioaragon.com.ar/emilia/bg5.jpg);
+    /* background-image: url("../../assets/bg5.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
