@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './statistics.module.css';
 import frame72 from '../../assets/Frame 72.png'
 import frame75 from '../../assets/Frame 75.png'

@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 .container {
-    background-image: url('http://eugenioaragon.com.ar/emilia/bg3.jpg');
-    background-size: cover;
-    padding-top: 1rem;
-    padding-bottom: 7rem;
-    display: flex;
+  background-image: url(http://eugenioaragon.com.ar/emilia/bg3.jpg);
+  background-size: cover;
+  padding-top: 1rem;
+  padding-bottom: 7rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
   }
 
 .Title1, .Title2{
@@ -13,7 +17,7 @@
   color: white;
   font-weight: 400;
   font-size: 2rem;
-  margin-left: 24.3125rem;
+
 }
 .Title1{
   padding-top: 6.5rem;
@@ -23,7 +27,7 @@
   color: white;
   width: 22rem;
   font-size: 1rem;
-  margin-left: 24.3125rem;
+
 }
 
 .im{
@@ -31,3 +35,15 @@
   width: 35rem;
   padding-left: 2rem;
 }
+
+
+@media only screen and (max-width: 1050px) {
+  .info{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      text-align: center;
+  }
+}
+

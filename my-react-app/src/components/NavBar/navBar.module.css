@@ -1,15 +1,58 @@
-    .listContainer {
-        display: flex;
-        justify-content: center; /* Centra los elementos horizontalmente */
-      }
-      
-      .list {
-        display: flex;
-        list-style-type: none;
-        padding: 0;
-        font-size: 14px;
-      }
-      
-      .li {
-        margin-right: 34px;
-      }
+.listContainer {
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 34px;
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+.open .list li:hover {
+  color: #DD71C6;
+  font-weight: 500;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.open {
+  display: block;
+}
+
+@media (max-width: 1158px) {
+  .list {
+      display: none;
+      gap: 0.5rem; /* Espaciado entre los elementos li */
+      list-style-type: none;
+      padding: 0;
+      font-size: 0.8rem;
+      background-color: #FFFFFF;
+      border-radius: 10%;
+    }
+  
+
+  .hamburger {
+    display: flex;
+  }
+
+  .open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hamburgerIcon {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    color: #DD71C6;
+  }
+}
+

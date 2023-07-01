@@ -1,42 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 
-.containerH{
-    padding-top: 5rem;
+.containerH {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5rem;
 }
-.title{
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 400;
-    font-size: 2.5rem;
-   text-align: center;
+.title {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
 }
-.textDiv{
+.textDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 80%;
 }
 
- .txt{
-     border: 1 px solid red;
-     text-align: center;
-     font-size: 1 rem;
-    font-weight: 400;
-    width: 70rem;
-} 
+.txt {
+  border: 1 px solid red;
+  text-align: center;
+  font-size: 1 rem;
+  font-weight: 400;
+}
 
 .BookButton {
-    background-color: #DD71C6;
-    color: white;
-    border: none;
-    border-radius: 0;
-    padding: 10px 20px;
-    margin-left: 55rem; 
-    margin-top: 2rem;
-  }
+  background-color: #dd71c6;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+}
 
-  .imag{
-    width: 80rem;
-    padding-top: 4rem;
-    padding-left: 20rem;
-  }
+.imag {
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 4rem;
+}

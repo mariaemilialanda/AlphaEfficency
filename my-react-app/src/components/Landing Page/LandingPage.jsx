@@ -1,4 +1,4 @@
-import React from 'react';
+
 import logo from '../../assets/Group 45.png'
 import NavBar from '../NavBar/NavBar'
 import CountdownOffer from '../Countdown Offer/CountdownOffer';
@@ -14,7 +14,7 @@ function LandingPage() {
             <NavBar />
       </div>
       <div className={styles.titleCountdown}>
-      <h1 className={styles.mainTitle}>Chicago’s Free Medical Check-Up and Weight Loss Consultation</h1>
+      <h1 className={styles.mainTitle}>Chicago’s <span>Free</span> Medical Check-Up and Weight Loss Consultation</h1>
       <CountdownOffer />
       </div>
       <p className={styles.underText}>Limited spots available due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>

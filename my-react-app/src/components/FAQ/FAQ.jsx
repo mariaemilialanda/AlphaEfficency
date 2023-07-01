@@ -25,7 +25,7 @@ function FAQ() {
         </h4>
         {activeIndex === 0 && (
           <p className={styles.content}>
-            Answer 1
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -36,7 +36,7 @@ function FAQ() {
         </h4>
         {activeIndex === 1 && (
           <p className={styles.content}>
-            Answer 2
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -47,7 +47,7 @@ function FAQ() {
         </h4>
         {activeIndex === 2 && (
           <p className={styles.content}>
-            Answer 3
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -58,7 +58,7 @@ function FAQ() {
         </h4>
         {activeIndex === 3 && (
           <p className={styles.content}>
-            Answer 4
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -69,7 +69,7 @@ function FAQ() {
         </h4>
         {activeIndex === 4 && (
           <p className={styles.content}>
-            Answer 5
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -80,7 +80,7 @@ function FAQ() {
         </h4>
         {activeIndex === 5 && (
           <p className={styles.content}>
-            Answer 6
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -91,7 +91,7 @@ function FAQ() {
         </h4>
         {activeIndex === 6 && (
           <p className={styles.content}>
-            Answer 7
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -102,7 +102,7 @@ function FAQ() {
         </h4>
         {activeIndex === 7 && (
           <p className={styles.content}>
-            Answer 8
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -113,7 +113,7 @@ function FAQ() {
         </h4>
         {activeIndex === 8 && (
           <p className={styles.content}>
-            Answer 9
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -124,7 +124,7 @@ function FAQ() {
         </h4>
         {activeIndex === 9 && (
           <p className={styles.content}>
-            Answer 10
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>
@@ -135,7 +135,7 @@ function FAQ() {
         </h4>
         {activeIndex === 10 && (
           <p className={styles.content}>
-            Answer 11
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ipsam sequi numquam nihil, quis pariatur! Dolore cupiditate aliquid ea recusandae dicta! Atque sunt est ullam quisquam distinctio hic vel quae?
           </p>
         )}
         </div>

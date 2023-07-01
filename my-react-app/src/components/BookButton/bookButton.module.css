@@ -5,7 +5,7 @@
     border-radius: 0;
     padding: 10px 20px;
     transition: border-color 0.3s ease;
-    margin-left: 24.375rem; 
+  width: fit-content;
   }
   
   .BookButton:hover {
