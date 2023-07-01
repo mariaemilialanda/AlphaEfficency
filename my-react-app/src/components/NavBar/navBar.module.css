@@ -1,0 +1,15 @@
+    .listContainer {
+        display: flex;
+        justify-content: center; /* Centra los elementos horizontalmente */
+      }
+      
+      .list {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        font-size: 14px;
+      }
+      
+      .li {
+        margin-right: 34px;
+      }

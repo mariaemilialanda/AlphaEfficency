@@ -1,0 +1,43 @@
+.container {
+    background-image: url('http://eugenioaragon.com.ar/emilia/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 8rem;
+  }
+
+  .header {
+    display: flex;
+    align-items: center; 
+  }
+
+  .logo {
+    width: 8.625rem; 
+    height: 3.8803679930664063rem; 
+    margin-top: 1.45rem;
+    margin-left: 24.375rem; 
+    margin-right: 3rem;
+  }
+
+  .titleCountdown{
+    display: flex;
+    align-items: center; 
+  }
+
+  .mainTitle{
+    width: 27.3125rem;
+    font-size: 2.8125rem;
+    margin-top: 8.5rem;
+    margin-left: 24.375rem;
+  }
+
+  .underText{
+    width: 28.6875rem;
+    height: 4.875rem;
+    margin-top: 1rem;
+    margin-left: 24.375rem; 
+    font-size: 1rem;
+  }
+
+
+  

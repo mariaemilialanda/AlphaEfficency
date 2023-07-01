@@ -1,0 +1,45 @@
+    .countdownOffer {
+        background-color:  rgba(255, 255, 255, 0.51) ;
+        backdrop-filter: blur(2.09375rem);
+        border-radius: 3.125rem;
+        width: 34.8125rem;
+        height: 14.9375rem;
+        margin-left: 4rem;
+        padding-bottom: 2rem;
+        }
+
+  .mainTitle {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-left: 9.5rem;
+  }
+
+  .countdownItem{
+    margin-top: 3rem;
+    width: 32rem;
+    letter-spacing: 0.325em;
+  }
+
+  .countdownItem, .countdownNumbers {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.countdownNumbers{
+    width: 30rem;
+    font-weight: 500;
+    font-size: 3.125rem;
+}
+
+  .countdownLabel{
+    font-weight: 500;
+    color:#0083D3;
+    font-size: 1.125rem;
+  }
+
+
+
+  
+
+  

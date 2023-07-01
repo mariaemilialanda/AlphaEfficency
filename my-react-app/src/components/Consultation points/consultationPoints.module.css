@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.container{
+    padding-top: 3rem;
+    background-image: url('http://eugenioaragon.com.ar/emilia/bg4.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   width: 100vw;
+}
+    
+.title, .blueTitle, .pinkTitle{
+    font-family: 'Libre Baskerville', serif;
+}
+.title{
+    font-weight: 400;
+    font-size: 2.5rem;
+   text-align: center;
+}
+
+.title .highlight {
+    color:  #DD71C6; 
+    font-family: 'Libre Baskerville', serif;
+}  
+
+.blocks{
+    padding-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.block1{
+
+    width: 25rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.block2{
+
+    width: 25rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.blueTitle{
+    color:   #0083D3 ;
+    padding-bottom: 2.5rem;
+    border-bottom: 0.11rem solid #B1E2FF;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.pinkTitle{
+    color: #DD71C6 ;
+    padding-bottom: 2.5rem;
+    border-bottom: 0.11rem solid #FFB7F0;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.data li{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.BookButton {
+    background-color: #DD71C6;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+  }
+

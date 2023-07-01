@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.container{
+    padding-top: 3rem;
+    background-image: url('http://eugenioaragon.com.ar/emilia/bg5.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   width: 80vw;
+}
+
+.faqTitle{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    font-weight: 400;
+}

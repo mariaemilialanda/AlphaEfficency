@@ -1,0 +1,13 @@
+.BookButton {
+    background-color: #DD71C6;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: border-color 0.3s ease;
+    margin-left: 24.375rem; 
+  }
+  
+  .BookButton:hover {
+    border: 0.185rem solid rgb(168, 0, 252);
+  }
