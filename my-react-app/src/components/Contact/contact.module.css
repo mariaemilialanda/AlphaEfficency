@@ -2,7 +2,8 @@
 
 .container {
   padding-top: 10rem;
-  background-image: url(http://eugenioaragon.com.ar/emilia/bg4.jpg);
+  /* background-image: url(http://eugenioaragon.com.ar/emilia/bg4.jpg); */
+  background-image: url("../../assets/bg4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -4,8 +4,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-    background-image: url('http://eugenioaragon.com.ar/emilia/bg.jpg');
-    /* background-image: url('../../assets/Background\ color\ \(1\).jpg'); */
+    /* background-image: url('http://eugenioaragon.com.ar/emilia/bg.jpg'); */
+    background-image: url('../../assets/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
